@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  padding: 50px 120px 0px 120px;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  gap: 20px;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: rgb(85, 85, 85);
+  text-align: center;
+  font-weight: 600;
+}
+
+.home-name {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+.home-job {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+  text-align: center;
+}
+
+.home-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.home-networks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button-1 {
+  background-color: white;
+  color: black;
+  padding: 1.25rem 1.25rem;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button-1:hover {
+  background-color: rgb(85, 85, 85);
+  color: white;
+}
+
+.button-2:hover {
+  background-color: black;
+  color: white;
+}
+
+.button-2 {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  padding: 1.25rem 1.25rem;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+nav {
+  margin-bottom: 80px;
+}
+
+.home-img {
+  width: 450px;
+  height: 450px;
+}
+
+.home-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+
+.home-description {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
