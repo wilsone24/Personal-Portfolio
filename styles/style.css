@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-  color: rgb(85, 85, 85);
+  color: rgb(123, 123, 123);
 }
 
 p {
@@ -193,27 +193,7 @@ nav {
   font-size: 30px;
 }
 
-.projects-section-project button {
-  background-color: rgb(85, 85, 85);
-  color: white;
-  padding: 1rem 1rem;
-  border-radius: 25px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: 0.5s;
-  max-width: 40%;
-}
 
-.projects-section-project button:hover {
-  background-color: black;
-  color: white;
-}
-
-.projects-section-project button:hover {
-  background-color: black;
-  color: white;
-}
 
 .projects-section-project-buttons {
   display: flex;
@@ -241,4 +221,9 @@ nav {
   );
   border-radius: 10px;
   color: #ffffff;
+}
+
+
+.projects-section-project p {
+  font-weight: 500;
 }
