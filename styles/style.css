@@ -45,6 +45,25 @@ p {
   font-weight: 600;
 }
 
+.nav ul li a {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(85, 85, 85);
+  transition: width 0.3s ease-in-out;
+}
+.nav ul li a:hover::after {
+  width: 100%;
+}
+
 .home-name {
   font-size: 3.5rem;
   font-weight: 600;
@@ -194,8 +213,6 @@ nav {
   font-size: 30px;
 }
 
-
-
 .projects-section-project-buttons {
   display: flex;
   flex-flow: row;
@@ -223,7 +240,6 @@ nav {
   border-radius: 10px;
   color: #ffffff;
 }
-
 
 .projects-section-project p {
   font-weight: 500;
