@@ -84,7 +84,7 @@ p {
   background: linear-gradient(
     to right,
     rgba(38, 71, 112, 0.726),
-    rgb(204, 159, 230)
+    rgb(229, 229, 229)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -188,8 +188,8 @@ nav {
   margin-top: 80px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  gap: 60px;
+  justify-content: center;
+  gap: 80px;
 }
 
 .projects-section-project {
@@ -215,7 +215,7 @@ nav {
 
 .projects-section-project-buttons {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   justify-content: center;
   gap: 40px;
 }
@@ -235,12 +235,31 @@ nav {
   background: linear-gradient(
     to right,
     rgba(38, 71, 112, 0.726),
-    rgb(217, 193, 231)
+    rgb(229, 229, 229)
   );
+  /* background: linear-gradient(
+    to right,
+    rgba(98, 98, 98, 0.726),
+    rgb(222, 222, 222)
+  ); */
   border-radius: 10px;
   color: #ffffff;
 }
 
 .projects-section-project p {
   font-weight: 500;
+}
+
+.stack-section{
+  margin-top: 120px;
+}
+
+.stack-section-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  }
+.stack-section-container img{
+height: 85px;
+width: 85px;
 }
