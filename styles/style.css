@@ -177,6 +177,7 @@ nav {
   max-width: 500px;
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   gap: 20px;
   padding: 40px;
   border: black 2px solid;
@@ -211,7 +212,7 @@ nav {
 
 .tag {
   padding: 12px;
-  width: 80px;
+  width: 90px;
   font-weight: bold;
   text-align: center;
   background: linear-gradient(
