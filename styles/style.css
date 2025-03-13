@@ -43,6 +43,19 @@ p {
   color: rgb(85, 85, 85);
   text-align: center;
   font-weight: 600;
+  
+}
+
+
+.nav p{
+  background: linear-gradient(
+    to right,
+    rgba(38, 71, 112, 0.726),
+    rgb(229, 229, 229)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .nav ul li a {
@@ -69,6 +82,7 @@ p {
   font-weight: 600;
   color: black;
   text-align: center;
+  
 }
 
 .home-job {
