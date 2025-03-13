@@ -64,8 +64,8 @@ p {
   overflow: hidden;
   background: linear-gradient(
     to right,
-    rgba(100, 168, 252, 0.726),
-    rgb(193, 94, 255)
+    rgba(38, 71, 112, 0.726),
+    rgb(204, 159, 230)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -153,4 +153,92 @@ nav {
 .home-networks img {
   width: 50px;
   height: 50px;
+}
+
+.projects-section {
+  margin-top: 120px;
+}
+
+.projects-section h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.projects-section-container {
+  margin-top: 80px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.projects-section-project {
+  max-width: 500px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  padding: 40px;
+  border: black 2px solid;
+  border-radius: 20px;
+}
+
+.projects-section-project img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.projects-section-project h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.projects-section-project button {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  max-width: 40%;
+}
+
+.projects-section-project button:hover {
+  background-color: black;
+  color: white;
+}
+
+.projects-section-project button:hover {
+  background-color: black;
+  color: white;
+}
+
+.projects-section-project-buttons {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.projects-section-project-tags {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.tag {
+  padding: 12px;
+  width: 80px;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba(38, 71, 112, 0.726),
+    rgb(217, 193, 231)
+  );
+  border-radius: 10px;
+  color: #ffffff;
 }
