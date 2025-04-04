@@ -43,11 +43,9 @@ p {
   color: rgb(85, 85, 85);
   text-align: center;
   font-weight: 600;
-  
 }
 
-
-.nav p{
+.nav p {
   background: linear-gradient(
     to right,
     rgba(38, 71, 112, 0.726),
@@ -82,7 +80,6 @@ p {
   font-weight: 600;
   color: black;
   text-align: center;
-  
 }
 
 .home-job {
@@ -244,7 +241,7 @@ nav {
 
 .tag {
   padding: 12px;
-  width: 100px;
+  width: auto;
   font-weight: bold;
   text-align: center;
   background: linear-gradient(
@@ -252,11 +249,6 @@ nav {
     rgba(38, 71, 112, 0.726),
     rgb(229, 229, 229)
   );
-  /* background: linear-gradient(
-    to right,
-    rgba(98, 98, 98, 0.726),
-    rgb(222, 222, 222)
-  ); */
   border-radius: 10px;
   color: #ffffff;
 }
@@ -265,7 +257,7 @@ nav {
   font-weight: 500;
 }
 
-.stack-section{
+.stack-section {
   margin-top: 120px;
 }
 
@@ -273,8 +265,8 @@ nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  }
-.stack-section-container img{
-height: 85px;
-width: 85px;
+}
+.stack-section-container img {
+  height: 85px;
+  width: 85px;
 }
