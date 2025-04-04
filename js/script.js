@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("typing-text");
-    const words = [" Engineer", " Analytics Engineer", " Cloud Trainee"];
+    const words = [" Engineer", " Backend Engineer", " Cloud Trainee"];
     let wordIndex = 0;
     let letterIndex = 0;
     let deleting = false;
