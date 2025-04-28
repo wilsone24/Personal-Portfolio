@@ -45,16 +45,6 @@ p {
   font-weight: 600;
 }
 
-.nav p {
-  background: linear-gradient(
-    to right,
-    rgba(38, 71, 112, 0.726),
-    rgb(229, 229, 229)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
 
 .nav ul li a {
   position: relative;
@@ -94,7 +84,7 @@ p {
   overflow: hidden;
   background: linear-gradient(
     to right,
-    rgba(38, 71, 112, 0.726),
+    rgba(103, 107, 112, 0.726),
     rgb(229, 229, 229)
   );
   background-clip: text;
